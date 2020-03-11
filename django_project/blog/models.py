@@ -2,16 +2,7 @@ from django.db import models
 from django.utils import timezone
 from django.contrib.auth.models import User
 from django.urls import reverse
-# first commit
-# second commit
-#<<<<<<< HEAD
-# third commit
-# fourth commit
-# fifth commit
-#=======
-#>>>>>>> parent of c28554c... Third commit
-#=======
-#>>>>>>> parent of 91fc787... Second commit
+
 
 
 class Post(models.Model):
