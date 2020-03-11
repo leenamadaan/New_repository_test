@@ -3,6 +3,7 @@ from django.utils import timezone
 from django.contrib.auth.models import User
 from django.urls import reverse
 # first commit
+<<<<<<< HEAD
 # second commit
 #<<<<<<< HEAD
 # third commit
@@ -10,6 +11,8 @@ from django.urls import reverse
 # fifth commit
 #=======
 #>>>>>>> parent of c28554c... Third commit
+#=======
+#>>>>>>> parent of 91fc787... Second commit
 
 
 class Post(models.Model):
