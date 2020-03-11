@@ -3,6 +3,7 @@ from django.utils import timezone
 from django.contrib.auth.models import User
 from django.urls import reverse
 # first commit
+#<<<<<<< HEAD
 # second commit
 # third commit
 # fourth commit
@@ -23,7 +24,3 @@ class Post(models.Model):
 
     def get_absolute_url(self): # sixth commit
         return reverse('post-detail', kwargs={'pk': self.pk}) # seventh comment
-
-
-
-    #eights comment
