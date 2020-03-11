@@ -6,9 +6,12 @@ from django.urls import reverse
 #<<<<<<< HEAD
 # second commit
 <<<<<<< HEAD
+<<<<<<< HEAD
 # third commit
 # fourth commit
 
+=======
+>>>>>>> parent of c28554c... Third commit
 =======
 >>>>>>> parent of c28554c... Third commit
 
