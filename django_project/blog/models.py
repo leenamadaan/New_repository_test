@@ -5,9 +5,12 @@ from django.urls import reverse
 # first commit
 #<<<<<<< HEAD
 # second commit
+<<<<<<< HEAD
 # third commit
 # fourth commit
 
+=======
+>>>>>>> parent of c28554c... Third commit
 
 
 class Post(models.Model):
