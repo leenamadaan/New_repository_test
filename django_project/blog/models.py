@@ -4,9 +4,12 @@ from django.contrib.auth.models import User
 from django.urls import reverse
 # first commit
 # second commit
+#<<<<<<< HEAD
 # third commit
 # fourth commit
 # fifth commit
+#=======
+#>>>>>>> parent of c28554c... Third commit
 
 
 class Post(models.Model):
