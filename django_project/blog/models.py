@@ -15,13 +15,9 @@ class Post(models.Model):
         return self.title
 
     def get_absolute_url(self):
-<<<<<<< HEAD
         return reverse('post-detail', kwargs={'pk': self.pk})
 
 
 # Third
 #four
 #five
-=======
-        return reverse('post-detail', kwargs={'pk': self.pk})
->>>>>>> parent of c1e3c12... Third Third Third
