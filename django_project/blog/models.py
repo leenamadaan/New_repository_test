@@ -6,14 +6,12 @@ from django.urls import reverse
 
 class Post(models.Model):
     title = models.CharField(max_length=100)
-<<<<<<< HEAD
-=======
+
     # second
 >>>>>>> parent of 5ee3979... third
     content = models.TextField()
     date_posted = models.DateTimeField(default=timezone.now)
     author = models.ForeignKey(User, on_delete=models.CASCADE)
-# fourth
     def __str__(self):
         return self.title
 
