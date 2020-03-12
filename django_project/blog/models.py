@@ -3,7 +3,7 @@ from django.utils import timezone
 from django.contrib.auth.models import User
 from django.urls import reverse
 
-# first
+
 class Post(models.Model):
     title = models.CharField(max_length=100)
     content = models.TextField()
@@ -17,6 +17,5 @@ class Post(models.Model):
         return reverse('post-detail', kwargs={'pk': self.pk})
 
 
-    # fifth
 
-
+# sixth
